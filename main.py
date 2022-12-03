@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from os import sys, path
+from os import sys, path, environ
 import sys
 import argparse
 from gitlab import get_gitlab_issue, get_gitlab_merge_requests
@@ -66,7 +66,7 @@ def search_gitlab_repo(wf, query):
 
     # update gitlab api data
     if not wf.cached_data_fresh('gitlab_projects', max_age=3600) and not is_running('gitlab_update'):
-        cmd = ['/usr/bin/python', wf.workflowfile('gitlab.py')]
+        cmd = [environ["python2"], wf.workflowfile('gitlab.py')]
         run_in_background('gitlab_update', cmd)
         wf.rerun = 0.
 
