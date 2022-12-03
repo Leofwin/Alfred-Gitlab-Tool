@@ -4,9 +4,11 @@ Alfred Gitlab dashboard workflow. Navigate projects, issues, merges and todos qu
 
 ## Install
 
-- Dependency [Alfred3](https://www.alfredapp.com/)
-- Download [Gitlab workflow release](https://github.com/wangshub/Alfred-Gitlab-Tool/releases)
-- Click to install.
+- Dependency [Alfred3 or Alfred4](https://www.alfredapp.com/)
+- Download [Gitlab workflow release](releases)
+- Click to install
+- Set `python2` interpreter variable. By default, it's `/usr/bin/python`.
+- Profit!
 
 ### Configure
 
@@ -42,9 +44,9 @@ All pull requests, issues and ideas are welcome.
 
 ## Thanks
 
-- Inspired by [lukewaite/alfred-gitlab](https://github.com/lukewaite/alfred-gitlab).
+- Forked from [wangshub/Alfred-Gitlab-Tool](https://github.com/wangshub/Alfred-Gitlab-Tool).
 - Python libary [alfred-workflow](http://www.deanishe.net/alfred-workflow/).
 
 ## License
 
-MIT @ [github/wangshub](https://github.com/wangshub)
+MIT @ [github/Leofwin](https://github.com/Leofwin)
