@@ -637,10 +637,10 @@ gltodo: Open Gitlab todos in browser.</string>
 	<key>variables</key>
 	<dict>
 		<key>python2</key>
-		<string>/Users/leofwin/.pyenv/shims/python2</string>
+		<string>/usr/bin/python</string>
 	</dict>
 	<key>version</key>
-	<string>1.2.0</string>
+	<string>1.2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/Leofwin/Alfred-Gitlab-Tool</string>
 </dict>
