@@ -49,4 +49,4 @@ All pull requests, issues and ideas are welcome.
 
 ## License
 
-MIT @ [github/Leofwin](https://github.com/Leofwin)
+MIT @ [github/Leofwin](LICENSE.md)
